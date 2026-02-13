@@ -29,7 +29,7 @@ A web application to manage recipes, products, and automatically generate weekly
 - **Python 3.10+**
 - **Django 4.2** - Web framework
 - **Django REST Framework** - API development
-- **Poetry** - Dependency management
+- **uv** - Fast Python package manager
 - **MariaDB/MySQL/SQLite** - Database options
 - **Gunicorn** - WSGI HTTP Server
 - **Sentry** - Error tracking
@@ -57,7 +57,7 @@ A web application to manage recipes, products, and automatically generate weekly
 
 - Python 3.10 or higher
 - Node.js 22 or higher
-- Poetry (Python package manager)
+- uv (Python package manager)
 - Docker & Docker Compose (for production deployment)
 
 ## Getting Started
@@ -76,7 +76,7 @@ A web application to manage recipes, products, and automatically generate weekly
 2. Install Python dependencies:
 
    ```bash
-   poetry install
+   uv sync
    ```
 
 3. Create environment configuration:
@@ -90,18 +90,18 @@ A web application to manage recipes, products, and automatically generate weekly
 
    ```bash
    cd backend
-   poetry run python manage.py migrate
+   uv run python manage.py migrate
    ```
 
 5. Create a superuser (optional):
 
    ```bash
-   poetry run python manage.py createsuperuser
+   uv run python manage.py createsuperuser
    ```
 
 6. Start the development server:
    ```bash
-   poetry run python manage.py runserver
+   uv run python manage.py runserver
    ```
 
 The backend API will be available at `http://localhost:8000`.
@@ -215,7 +215,7 @@ cociplan/
 
 ```bash
 cd backend
-poetry run pytest
+uv run pytest
 ```
 
 **Frontend:**
@@ -231,14 +231,14 @@ npm test
 
 ```bash
 # Linting
-poetry run flake8
+uv run flake8
 
 # Type checking
-poetry run mypy .
+uv run mypy .
 
 # Formatting
-poetry run black .
-poetry run isort .
+uv run black .
+uv run isort .
 ```
 
 **Frontend:**
