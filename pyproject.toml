@@ -21,6 +21,7 @@ dependencies = [
   "python-decouple>=3.8",
   "gunicorn>=21.2.0",
   "openai>=1.35.13",
+  "setuptools",
 ]
 
 [dependency-groups]

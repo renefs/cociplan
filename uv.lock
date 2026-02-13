@@ -217,6 +217,7 @@ dependencies = [
     { name = "pillow" },
     { name = "python-decouple" },
     { name = "sentry-sdk" },
+    { name = "setuptools" },
 ]
 
 [package.dev-dependencies]
@@ -255,6 +256,7 @@ requires-dist = [
     { name = "pillow", specifier = "==9.5.0" },
     { name = "python-decouple", specifier = ">=3.8" },
     { name = "sentry-sdk", specifier = "==1.21.1" },
+    { name = "setuptools" },
 ]
 
 [package.metadata.requires-dev]
@@ -1653,6 +1655,15 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/ce/da/9981b6f72cdd0383b14843930a4b8845f5bdf5098a1da04373f9cc8a6b95/sentry-sdk-1.21.1.tar.gz", hash = "sha256:99c15556a23621be9f18c2955f7ce63321713bf1c0ad396b27b61399bac5f458", size = 176965, upload-time = "2023-04-28T19:29:16.95Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/04/e6/43a9b00d2b8ea7efa35d06e2ef97aa1736fc9640d5ba81ee8db6f715c392/sentry_sdk-1.21.1-py2.py3-none-any.whl", hash = "sha256:092888f3abf7a2ea78f0bfcefc3e0465caee2b6f0efb26f538ccc60f95dca179", size = 201719, upload-time = "2023-04-28T19:29:16.985Z" },
+]
+
+[[package]]
+name = "setuptools"
+version = "82.0.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/82/f3/748f4d6f65d1756b9ae577f329c951cda23fb900e4de9f70900ced962085/setuptools-82.0.0.tar.gz", hash = "sha256:22e0a2d69474c6ae4feb01951cb69d515ed23728cf96d05513d36e42b62b37cb", size = 1144893, upload-time = "2026-02-08T15:08:40.206Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/e1/c6/76dc613121b793286a3f91621d7b75a2b493e0390ddca50f11993eadf192/setuptools-82.0.0-py3-none-any.whl", hash = "sha256:70b18734b607bd1da571d097d236cfcfacaf01de45717d59e6e04b96877532e0", size = 1003468, upload-time = "2026-02-08T15:08:38.723Z" },
 ]
 
 [[package]]
