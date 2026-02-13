@@ -42,10 +42,11 @@ module.exports = {
   ],
   rules: {
     "react/require-default-props": [
-      "error", {
+      "error",
+      {
         classes: "defaultProps",
-        functions: "defaultArguments"
-      }
+        functions: "defaultArguments",
+      },
     ],
     "comma-dangle": "off",
     "import/order": [
@@ -96,6 +97,10 @@ module.exports = {
   },
   settings: {
     "import/resolver": {
+      typescript: {
+        alwaysTryTypes: true,
+        project: "./tsconfig.json",
+      },
       node: {
         moduleDirectory: ["src", "node_modules"],
         extensions: [".js", ".jsx", ".ts", ".tsx"],
