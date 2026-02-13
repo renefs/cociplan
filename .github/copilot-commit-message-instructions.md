@@ -1,0 +1,11 @@
+- Separate subject from body with a blank line.
+- Limit the subject line to 50 characters
+- Capitalize the subject line
+- Do not end the subject line with a period
+- Use the imperative mood in the subject line
+- Wrap the body at 72 characters
+- Use the body to explain what and why vs. how
+- In the body, use bullet points to describe everything.
+- Avoid vague terms like "update", "enhance", "improve", or "better".
+- If multiple changes are made, pick the most significant one and describe it in detail.
+- Message length is maximum 250 characters.
