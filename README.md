@@ -56,7 +56,7 @@ A web application to manage recipes, products, and automatically generate weekly
 ## Prerequisites
 
 - Python 3.10 or higher
-- Node.js 18 or higher
+- Node.js 22 or higher
 - Poetry (Python package manager)
 - Docker & Docker Compose (for production deployment)
 
