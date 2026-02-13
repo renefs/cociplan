@@ -39,5 +39,10 @@
     "**/mypy_cache": true,
     "**/package-lock.json": true,
     "**/uv.lock": true
-  }
+  },
+  "github.copilot.chat.commitMessageGeneration.instructions": [
+    {
+      "file": ".github/copilot-commit-message-instructions.md"
+    }
+  ]
 }
